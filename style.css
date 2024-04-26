@@ -64,6 +64,7 @@ p {
 img {
     height: 12em;
     padding: .2em;
+    margin: 2em;
     border-radius: 2em;
     transition-duration: .3s;
 }
