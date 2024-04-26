@@ -1,0 +1,79 @@
+:root {
+    --c1: white;
+    --c2: black;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(font/Lato-Regular.ttf);
+}
+
+body {
+    font-family: Lato;
+    color: var(--c1);
+    background: linear-gradient(var(--c2), darkorchid, dodgerblue, darkcyan);
+    background-attachment: fixed;
+    text-align: center; 
+}
+
+h1 {
+    padding: .5em;
+}
+
+.nav {
+    width: 40%;
+    background-color: var(--c2);
+    padding: 1em;
+    border-left: .1em solid var(--1);
+    border-bottom: .1em solid var(--c1);
+    border-radius: 1em;
+}
+
+.nav-link {
+    color: var(--c1);
+    text-decoration: none;
+    transition: .3s;
+}
+.nav-link:hover {
+    color: var(--c1);
+    transform: translate(0, -.3em);
+}
+
+.container {
+    background-color: var(--c2);
+    border-radius: 1em;
+    margin-top: 2em;
+    border: .1em solid var(--c1);
+}
+
+.c-bg1 {
+    background-image: url(images/galaxy.jpg);
+    background-attachment: fixed;
+}
+.c-bg2 {
+    background-image: url(images/nebula.jpg);
+    background-attachment: fixed;
+}
+
+p {
+    padding: 1em;
+    text-align: justify;
+    text-shadow: 0 0 .1em black, 0 0 .5em black;
+}
+
+img {
+    height: 12em;
+    padding: .2em;
+    border-radius: 2em;
+    transition-duration: .3s;
+}
+img:hover {
+    scale: 1.05;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 5em; margin-bottom: 0;
+    padding: 1rem;
+    background-color: var(--c2);
+}
