@@ -22,7 +22,7 @@ h1 {
 }
 
 .nav {
-    width: 40%;
+    max-width: 40em;
     background-color: var(--c2);
     padding: 1em;
     border-left: .1em solid var(--1);
@@ -63,7 +63,7 @@ p {
 }
 
 img {
-    height: 12em;
+    min-height: 10px; max-height: 12em; height: 40vw;
     padding: .2em;
     margin: 2em;
     border-radius: 2em;
