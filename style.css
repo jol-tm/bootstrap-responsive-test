@@ -10,6 +10,7 @@
 
 body {
     font-family: Lato;
+    font-size: 1em;
     color: var(--c1);
     background: linear-gradient(var(--c2), darkorchid, dodgerblue, darkcyan);
     background-attachment: fixed;
